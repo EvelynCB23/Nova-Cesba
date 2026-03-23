@@ -1,3 +1,159 @@
-body{
-    background-color: rgba(173, 35, 132, 0.636);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Contenedor */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #fff7ed; /* tono crema */
+    padding: 20px 0;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ea580c; /* naranja */
+    text-decoration: none;
+}
+
+/* NAV */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ea580c;
+}
+
+/* HEADER CONTENT */
+.header-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-txt h1 {
+    font-size: 35px;
+    color: #9a3412;
+}
+
+.header-txt p {
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+.header-txt img {
+    width: 250px;
+    margin: 20px 0;
+}
+
+/* BOTONES */
+.btn-1 {
+    background-color: #fb923c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-1:hover {
+    background-color: #f97316;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.about img {
+    width: 250px;
+}
+
+.about-txt h2 {
+    color: #9a3412;
+    margin-bottom: 10px;
+}
+
+/* PRODUCTOS */
+.products {
+    padding: 40px 0;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9a3412;
+}
+
+/* TARJETA */
+.products-content {
+    background: #fff;
+    border: 1px solid #fed7aa;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+
+.products-content img {
+    width: 100%;
+}
+
+.precio {
+    color: #16a34a;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* CARRITO */
+#carrito {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.submenu:hover #carrito {
+    display: block;
+}
+
+/* BOTON VACIAR */
+.btn-2 {
+    display: block;
+    background: #dc2626;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
