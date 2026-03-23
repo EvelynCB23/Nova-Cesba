@@ -4,13 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-/* Contenedor */
+
 .container {
     max-width: 1100px;
     margin: auto;
 }
 
-/* HEADER */
+
 .header {
     background-color: #fff7ed; /* tono crema */
     padding: 20px 0;
@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-/* LOGO */
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -31,7 +31,7 @@
     text-decoration: none;
 }
 
-/* NAV */
+
 .navbar ul {
     list-style: none;
     display: flex;
@@ -48,7 +48,7 @@
     color: #ea580c;
 }
 
-/* HEADER CONTENT */
+
 .header-content {
     text-align: center;
     padding: 40px 0;
@@ -69,7 +69,7 @@
     margin: 20px 0;
 }
 
-/* BOTONES */
+
 .btn-1 {
     background-color: #fb923c;
     color: white;
@@ -82,7 +82,6 @@
     background-color: #f97316;
 }
 
-/* ABOUT */
 .about {
     display: flex;
     align-items: center;
@@ -99,7 +98,7 @@
     margin-bottom: 10px;
 }
 
-/* PRODUCTOS */
+
 .products {
     padding: 40px 0;
 }
@@ -110,7 +109,7 @@
     color: #9a3412;
 }
 
-/* TARJETA */
+
 .products-content {
     background: #fff;
     border: 1px solid #fed7aa;
@@ -131,7 +130,7 @@
     margin: 10px 0;
 }
 
-/* CARRITO */
+
 #carrito {
     display: none;
     position: absolute;
@@ -146,7 +145,7 @@
     display: block;
 }
 
-/* BOTON VACIAR */
+
 .btn-2 {
     display: block;
     background: #dc2626;
