@@ -1,3 +1,4 @@
+//primer commit
 const carrito = document.getElementById('carrito');
 const elementos1 = document.getElementById('lista-1');
 const lista = document.querySelector('#lista-carrito tbody');
@@ -9,4 +10,14 @@ function cargarEventListeners(){
     elementos1.addEventListener('click', comprarElemento);
     carrito.addEventListener('click', eliminarElemento);
     vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
+}
+
+//segundo commit
+function comprarElemento(e) {
+    e.preventDefault();
+    if (e.target.classList.contains('agregar-carrito')){
+        const elemento = e.target.parentElement.parentElement;
+        leerDatosElemento(elemento);
+    }
+
 }
