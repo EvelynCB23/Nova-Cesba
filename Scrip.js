@@ -19,5 +19,15 @@ function comprarElemento(e) {
         const elemento = e.target.parentElement.parentElement;
         leerDatosElemento(elemento);
     }
+}
 
+//tercer commit
+
+function leerDatosElemento(elemento) {
+    const infoElemento = {
+        imagen: elemento.querySelector('img').src,
+        titulo: elemento.querySelector('h3').textContent,
+        precio: elemento.querySelector('.precio').textContent,
+        id: elemento.querySelector('a').getAttribute('data-id')
+    }
 }
