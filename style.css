@@ -149,11 +149,12 @@
 
 .btn-2 {
     display: block;
-    background: #dc2626;
+    background: #dc26ac;
     color: white;
     padding: 8px;
     text-align: center;
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
+    
 }
